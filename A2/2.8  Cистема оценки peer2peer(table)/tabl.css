@@ -1,0 +1,33 @@
+/*.items {*/
+/*    border-collapse: collapse;*/
+/*}*/
+
+/*.items tbody tr:nth-of-type(2n) {*/
+/*    background-color: rgb(146, 252, 194);*/
+/*}*/
+
+/*.items th,*/
+/*.items td {*/
+/*    border-left: 2px solid white;*/
+/*}*/
+
+
+.items {
+border-collapse: collapse;
+}
+.items tbody tr:nth-of-type(2n) {
+background-color: rgb(146, 252, 194);
+}
+/*th, td {*/
+/*    text-align: left;*/
+/*    padding: 2px;*/
+/*}*/
+
+/*.items tr:nth-child(even) {*/
+/*    background-color: #f2f2f2*/
+/*}*/
+
+/*th {*/
+/*    background-color: #4CAF50;*/
+/*    color: yellow;*/
+/*}*/

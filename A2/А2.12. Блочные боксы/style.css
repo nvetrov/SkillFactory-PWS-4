@@ -1,0 +1,32 @@
+/*body {*/
+/*    font-size: 20px;*/
+/*    color: rgb(23, 74, 151);*/
+/*}*/
+
+p {
+    display: inline-block;
+    width: 60ch;
+    font-size: 20px;
+    color: rgb(94, 94, 94);
+}
+
+.item {
+    display: inline-block;
+    vertical-align: bottom;
+    min-width: 300px;
+    width: 33%;
+    min-height: 200px;
+    background-color: rgb(240, 152, 70);
+}
+
+.item {
+    margin: 30px 50px 50px 30px;
+}
+
+.special {
+    position: relative;
+}
+
+.items-wrapper {
+    position: relative;
+}

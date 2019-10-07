@@ -1,0 +1,42 @@
+/*.site-heading::before{*/
+/*    content: '\23AF';*/
+/*    padding-right: 15px;*/
+/*}*/
+
+/*.site-heading::after {*/
+/*    content: '\23AF';*/
+/*    padding-left: 15px;*/
+/*}*/
+
+
+.contain {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 30%;
+    height: 50px;
+    background-color: #E63000;
+    align-items: center;
+    align-self: center;
+}
+
+
+
+
+.cart {
+    color: #ffff;
+    text-decoration: none;
+    font-size: 20px;
+    position: relative;
+
+}
+
+.cart::before {
+    content: url("../images/b.png");
+    width: 20px;
+    height: auto;
+    position: absolute;
+    left: -50px;
+    top: 50%;
+    transform: translateY(-50%);
+}

@@ -1,0 +1,34 @@
+h2 {
+    margin: 0;
+}
+
+.wrapper {
+    height: 200px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(91, 28, 128);
+}
+
+.block {
+    width: 100px;
+    height: 50px;
+    color: #fff;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.special-1 {
+    background-color: rgb(245, 155, 38);
+}
+
+.special-2 {
+    background-color: rgb(206, 28, 28);
+}
+
+
+.special-3 {
+    background-color:  rgb(177, 236, 0);
+    margin-left: auto
+}

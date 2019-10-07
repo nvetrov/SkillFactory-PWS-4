@@ -1,0 +1,17 @@
+/*.item {*/
+/*    display: inline-block;*/
+/*    width: 320px;*/
+/*    background-color: rgb(240, 152, 70);*/
+/*}*/
+
+/*.item-name {*/
+/*    display: block;*/
+/*    text-align: center;*/
+/*    font-size: 30px;*/
+/*    font-weight: 700;*/
+/*}*/
+
+.box {
+    display: inline-block;
+    width: 320px;
+}

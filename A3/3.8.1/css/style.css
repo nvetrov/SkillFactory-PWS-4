@@ -1,0 +1,21 @@
+h2 {
+    margin: 0;
+}
+
+.wrapper {
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(91, 28, 128);
+}
+
+.special-1 {
+    width: 50%;
+    background-color: rgb(245, 155, 38);
+}
+
+.special-2 {
+    width: 300px;
+    background-color: rgb(206, 28, 28);
+}

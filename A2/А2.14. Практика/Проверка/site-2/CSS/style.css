@@ -1,0 +1,154 @@
+body {
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	background-color: #fff;
+  	font-size: 16px;
+  	font-family: "Open Sans";
+  	line-height: 28px;
+}
+
+.page-container {
+	margin: 0 auto;
+	width: 1582px;
+	height: 691px;
+	background-color: #F6F2F2;
+
+}
+
+.wrapper {
+	width: 1249px;
+	margin: 0 auto;
+	box-sizing: border-box;
+}
+
+.nav-menu {
+	float: left;
+	margin: 0 auto;
+	margin-top: 31px;
+	background-color: rgba(49, 48 ,48);
+	width: 100%;
+	height: 89px;
+}
+
+.menu-item {
+  width: 534px;
+  margin: 0 auto;
+  padding: 0;
+  list-style-type: none;
+ }
+
+.menu-item li {
+  float: left;
+  width: 90px;
+  height: 89px;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: bold;
+  margin-right: 40px;
+  letter-spacing: 0.43px;
+  text-align: center;
+  padding: 38px 5px 27px 5px;
+  box-sizing: border-box;
+  
+}
+
+.menu-item li:last-child {
+	margin-right: 0;
+}
+
+.menu-item a {
+  text-decoration: none;
+  color: #E0E0E0;
+  text-transform: uppercase;
+  
+}
+
+.menu-item li:hover {
+	background-color: #FF3F40;
+}	
+
+.features {
+	width: 1249px;
+	margin: 0 auto;
+}
+
+.container {
+	padding-top: 132px;
+
+}
+.main-article {
+	width: 626px;
+	float: left;
+	vertical-align: bottom;
+}	
+
+.article-header {
+	margin: 0;
+	padding-top: 0;
+	margin-top: 82px;
+}
+
+h1.header-prop {
+	font-size: 60px;
+	line-height: 72px;
+	font-family: Open Sans;
+	font-weight: 800;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+.article-header span.header-text-style {
+	letter-spacing: 4px;
+}
+
+.main-text {
+	padding: 0;
+	margin: 0;
+	width: 545px;
+	position: relative;
+	bottom: 17px;
+}
+
+.main-text p {
+	text-align: left;
+	white-space: pre-line;
+	
+}
+
+.clearfix::after {
+	content: "";
+	display: table;
+	clear: both;
+
+}
+
+.btn-style {
+	position: relative;
+	top: 13px;
+}
+
+.btn {
+  display: inline-block;
+  width: 230px;
+  height: 58px;
+  color: white;
+  background-color: rgb(255, 45, 45);
+  border: 1px solid red;
+  border-radius: 5px;
+  text-decoration: none;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 0.319px;
+  padding: 17px 0;
+  box-sizing: border-box;
+  
+}
+
+.right-section {
+	margin: 0;
+	float: right;
+	position: relative;
+	top: 90px;
+}

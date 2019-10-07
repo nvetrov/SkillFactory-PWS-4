@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    /*color: rgb(247, 130, 109);*/
+}
+
+/*p {*/
+/*    color: inherit;*/
+/*}*/
+
+/*span {*/
+/*    color: initial;*/
+/*}*/
+
+header {
+    background-color: #8a6d3b;
+    padding-bottom: 20px;
+}
+
+.header-wrapper {
+   position: relative;
+   max-width: 1000px;
+   margin: 0 auto;
+}
+
+.logo {
+    position: relative;
+    top: 20px;
+}
+
+.site-menu {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.site-menu li {
+    display: inline-block;
+}
+
+.site-menu a {
+    color: white;
+    font-size: 20px;
+
+}
+
+.wrap {
+    position: relative;
+    width: 800px;
+    height: 500px;
+    background-color: rgb(235, 194, 61);
+}
+
+.box {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(240, 56, 10);
+}
+
+

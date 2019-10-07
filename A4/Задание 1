@@ -1,0 +1,35 @@
+Давайте выполним практическое задание.
+
+Задание 1
+
+url('../images/main-back.jpg')
+
+Задание 2
+
+no-repeat
+
+Задание 3
+
+90% 80%;
+
+Задание 4
+
+../images
+
+no-repeat
+
+cover
+
+rgb(153, 154, 190)
+
+-----------------------
+
+.site-heading::before{
+    content: '\23AF';
+    padding-right: 15px;
+}
+
+.site-heading::after {
+    content: '\23AF';
+    padding-left: 15px;
+}

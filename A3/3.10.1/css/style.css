@@ -1,0 +1,115 @@
+@font-face {
+    src: url("../fonts/OpenSans-Regular.ttf");
+    font-family: 'Russo One';
+}
+
+body {
+    margin: 0;
+    background-color: #e0e0e0;
+}
+
+header {
+    display: flex;
+    margin: 0 auto;
+    width: 1249px;
+    height: 75px;
+    justify-items: center;
+    justify-content: center;
+    /*min-height: 89px;*/
+    /*min-width: 120px;*/
+    background-color: #000000;
+    font-family: "OpenSans Regular", Arial, Helvetica, sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+}
+
+.site-menu ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    list-style: none;
+}
+
+.site-menu li:hover {
+    background-color: #ff3f40;
+}
+
+.site-menu li {
+    margin: 0 auto;
+    list-style: none;
+    padding: 28px 25px;
+    letter-spacing: 2px;
+}
+
+.site-menu a {
+    color: #e0e0e0;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/*------MAIN- START-------*/
+main {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    /*background-color: white;*/
+
+}
+
+.intro-wrapper h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Open Sans, Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-size: 60px;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+    width: 59vw;
+
+}
+
+.intro-wrapper p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    word-wrap: break-word;
+    width: 69vw;
+
+}
+
+
+.contact-link {
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ff3f40;
+    padding:  20px 20px;
+    text-decoration: none;
+    margin: 0  333px;
+    width: 60px;
+    left: 150px;
+
+}
+.contact-link a {
+    color: yellow;
+}
+
+.intro-image {
+position:absolute;
+width: 554px;
+height: 359px;
+left: 1030px;
+top: 119px;
+
+}
+/*------MAIN- END-------*/

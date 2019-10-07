@@ -1,0 +1,328 @@
+@font-face {
+    src: url("../fonts/Russo_One/RussoOne-Regular.ttf");
+    font-family: 'Russo One', sans-serif;
+}
+/* Rectangle Бело-Розовый */
+.background_rectangle {
+    position: relative;
+    width: 1582px;
+    height: 691px;
+    right: -3px;
+    top: -2px;
+    background: #F6F2F2;
+
+}
+
+
+/* Rectangle Черный -> background menu */
+.background_menu {
+    position: relative;
+    width: 1249px;
+    height: 89px;
+    left: 164px;
+    top: 31px;
+    background: #000000;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+}
+
+nav {
+    text-align: center;
+}
+
+.site-menu {
+    position: relative;
+    /*top: 50%;*/
+    display: inline-block;
+    margin: 0;
+    padding-left: 0;
+    list-style: none;
+
+}
+
+.site-menu li {
+    display: inline-block;
+    padding: 32px;
+    font-style: normal;
+    font-weight: bold;
+    font-family: 'Russo One', sans-serif;
+    line-height: 24px;
+}
+
+.site-menu  a {
+    color: white;
+    font-size: 14px;
+    text-transform: uppercase;
+    /*line-height: 24px;*/
+
+}
+
+.site-menu li:hover {
+    background: #FF3F40;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none; /* Убирает подчеркивание для ссылок */
+}
+
+
+h1  { /* our strong  organaisation */
+    position: absolute;
+    width: 618px;
+    height: 117px;
+    left: 164px;
+    top: 170px;
+    font-family: Open Sans, serif;
+
+    /*font-family: Open Sans;*/
+    font-style: normal;
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 72px;
+    display: inline-block;
+    align-items: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+    color: #000000;
+}
+
+p { /* Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed d */
+    position: absolute;
+    width: 544.85px;
+    height: 73px;
+    left: 165px;
+    top: 350px;
+    font-family: 'Rubik Mono One', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 28px;
+    /* or 175% */
+    display: flex;
+    align-items: center;
+    color: #000000;
+
+}
+
+/*contact Us*/
+.button {
+    position: relative;
+    width: 230px;
+    height: 58px;
+    left: 162px;
+    top: 400px;
+    background-color: #ff2d2d;
+    text-align: center;
+    display: inline-block;
+     /*Делать закругленные углы не нужно.см.TЗ*/
+    /*border-radius: 8px;*/
+}
+
+/*text button*/
+.button a {
+    position: relative;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 30px;
+    align-items: center;
+    bottom: -10px;
+
+    letter-spacing:1px;
+    color: #FFFFFF;
+}
+    /* Video Icon */
+    /*position: initial;*/
+.outside {
+    position: relative;
+    width: 554px;
+    height: 359px;
+    left: 858px;
+    top: 90px;
+    background-color: #ff2d2d;
+    /*text-align: center;*/
+/*mix-blend-mode: normal;*/
+
+/*opacity: 0.2;*/
+}
+
+.inside {
+    height: 70px;
+    width: 69px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: #FFFFFF;;
+
+}
+
+/*!* Rectangle Бело-Розовый *!*/
+/*.background_rectangle {*/
+/*    position: relative;*/
+/*    width: 1582px;*/
+/*    height: 691px;*/
+/*    right: -3px;*/
+/*    top: -2px;*/
+/*    background: #F6F2F2;*/
+
+/*}*/
+
+
+/*!* Rectangle Черный -> background menu *!*/
+/*.background_menu {*/
+/*    position: relative;*/
+/*    width: 1249px;*/
+/*    height: 89px;*/
+/*    left: 164px;*/
+/*    top: 31px;*/
+/*    background: #000000;*/
+/*    mix-blend-mode: normal;*/
+/*    opacity: 0.8;*/
+/*}*/
+
+/*nav {*/
+/*    text-align: center;*/
+/*}*/
+
+/*.site-menu {*/
+/*    position: relative;*/
+/*    !*top: 50%;*!*/
+/*    display: inline-block;*/
+/*    margin: 0;*/
+/*    padding-left: 0;*/
+/*    list-style: none;*/
+
+/*}*/
+
+/*.site-menu li {*/
+/*    display: inline-block;*/
+/*    padding: 32px;*/
+/*    font-family: Open Sans;*/
+/*    font-style: normal;*/
+/*    font-weight: bold;*/
+
+/*    line-height: 24px;*/
+/*}*/
+
+/*.site-menu a {*/
+/*    color: white;*/
+/*    font-size: 14px;*/
+/*    text-transform: uppercase;*/
+/*    !*line-height: 24px;*!*/
+
+/*}*/
+
+/*.site-menu li:hover {*/
+/*    background: #FF3F40;*/
+/*    transition: all 0.5s;*/
+/*    cursor: pointer;*/
+/*}*/
+
+/*a {*/
+/*    text-decoration: none; !* Убирает подчеркивание для ссылок *!*/
+/*}*/
+
+
+/*.strong  { !* our strong  organaisation *!*/
+/*    position: absolute;*/
+/*    width: 618px;*/
+/*    height: 117px;*/
+/*    left: 164px;*/
+/*    top: 220px;*/
+
+/*    font-family: Open Sans;*/
+/*    font-style: normal;*/
+/*    font-weight: 800;*/
+/*    font-size: 60px;*/
+/*    line-height: 72px;*/
+/*    !* or 120% *!*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    letter-spacing: 2px;*/
+/*    text-transform: uppercase;*/
+
+/*    color: #000000;*/
+/*}*/
+
+/*.text-warp { !* Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed d *!*/
+/*    position: absolute;*/
+/*    width: 544.85px;*/
+/*    height: 73px;*/
+/*    left: 165px;*/
+/*    top: 373.52px;*/
+/*    font-family: Open Sans;*/
+/*    font-style: normal;*/
+/*    font-weight: normal;*/
+/*    font-size: 15.9953px;*/
+/*    line-height: 28px;*/
+/*    !* or 175% *!*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    color: #000000;*/
+/*}*/
+
+/*!*contact Us*!*/
+/*.button {*/
+/*    position: absolute;*/
+/*    width: 230px;*/
+/*    height: 58px;*/
+/*    left: 162px;*/
+/*    top: 508px;*/
+/*    background: #ff2d2d;*/
+/*    text-align: center;*/
+/*    display: inline-block;*/
+/*    border-radius: 8px;*/
+
+/*}*/
+
+/*!*text button*!*/
+/*.text_btn {*/
+/*    position: initial;*/
+/*    !*width: 143.35px;*!*/
+/*    !*height: 24px;*!*/
+/*    !*left: 226px;*!*/
+/*    !*top: 524.39px;*!*/
+
+/*    font-family: Open Sans;*/
+/*    font-style: normal;*/
+/*    font-weight: bold;*/
+/*    font-size: 18px;*/
+/*    margin: 14px;*/
+/*    line-height: 30px;*/
+/*    align-items: center;*/
+/*    letter-spacing: 0.3195px;*/
+/*    color: #FFFFFF;*/
+/*}*/
+/*    !* Video Icon *!*/
+/*    !*position: initial;*!*/
+/*.outside {*/
+/*    position: relative;*/
+/*    width: 554px;*/
+/*    height: 359px;*/
+/*    left: 862px;*/
+/*    top: 120px;*/
+/*    background-color: #ff2d2d;;*/
+/*    !*text-align: center;*!*/
+/*mix-blend-mode: normal;*/
+/*opacity: 0.2;*/
+/*}*/
+
+/*.inside {*/
+
+/*    height: 50px;*/
+/*    width: 50px;*/
+/*    position: absolute;*/
+/*    top: 0;*/
+/*    bottom: 0;*/
+/*    left: 0;*/
+/*    right: 0;*/
+/*    margin: auto;*/
+/*    background-color: #FFFFFF;;*/
+
+/*}*/

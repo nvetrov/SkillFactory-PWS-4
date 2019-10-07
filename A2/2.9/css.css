@@ -1,0 +1,46 @@
+/*p {*/
+/*    font-size: 20px;*/
+/*}*/
+
+/*.client-text {*/
+/*    font-weight: bold;*/
+/*    color: rgb(0, 0, 255);*/
+/*}*/
+/*.internet-text {*/
+/*    font-variant: small-caps;*/
+/*}*/
+/*.browser-text {*/
+/*    font-style: italic;*/
+/*    color: rgb(255, 165, 0);*/
+/*}*/
+/*.server-text {*/
+/*    color: rgb(255, 0, 0);*/
+/*}*/
+
+/*.intro {*/
+/*      color: rgba(255, 255, 0,1);*/
+
+/*}*/
+.items th,
+.items td {
+    border: 1px solid black;
+}
+
+
+.items {
+border-collapse: collapse;
+}
+
+
+/*.items tbody tr:nth-of-type(2n+1) {*/
+/*    background-color: rgb(252, 198, 128);*/
+/*}*/
+
+
+/*}*/
+
+
+/*.items tbody tr:nth-of-type(2n+2) {*/
+/*    background-color: rgb(252, 198, 128);*/
+/*}*/
+

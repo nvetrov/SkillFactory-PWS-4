@@ -1,0 +1,94 @@
+body {
+    background-color: #f6f2f2;
+}
+
+header {
+    margin: 0 auto;
+    position: relative;
+    height: 90px;
+}
+
+.site-menu {
+    background-color: #313030;
+    height: 100%;
+    width: 70%;
+    margin: 0 15%;
+
+}
+
+.site-menu ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 0 20%;
+}
+
+.menu-item {
+    width: 24%;
+    height: 100%;
+    position: relative;
+}
+
+.menu-item li {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.menu-item a {
+    color: #e0e0e0;
+    text-decoration: none;
+    text-align: center;
+    width: 100%;
+    padding: 36px 0;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.menu-item a:hover {
+    background-color: #ff3f40;
+}
+
+main {
+    margin: 5% 15%;
+    display: flex;
+}
+
+main div {
+    vertical-align: middle;
+    width: 49%;
+}
+
+main h1 {
+  background-position: 50% 70%;   text-transform: uppercase;
+    font-size: 55px;
+    font-weight: bold;
+}
+
+main p {
+    color: #6c6a6a;
+    font-size: 18px;
+    width: 60ch;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+}
+
+.left a {
+    background-color: #ff3f40;
+    color: #ffffff;
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+    width: 230px;
+    padding: 22px 0;
+    margin-top: 25px;
+}
+
+.right img {
+    width: 100%;
+}

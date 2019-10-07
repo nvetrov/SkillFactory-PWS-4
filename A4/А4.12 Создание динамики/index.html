@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<button class="popup-button">Войти</button>
+<div class="popup"></div>
+
+
+<!--<script>-->
+
+<!--    let button = document.querySelector('.popup-button');-->
+
+<!--    	button.addEventListener('mouseover', showPopup);-->
+
+<!--    	function showPopup() {-->
+<!--        	document.querySelector('.popup').classList.add('visible');-->
+<!--    	}-->
+
+<!--    	button.addEventListener('mouseout', hidePopup);-->
+
+<!--    	function hidePopup() {-->
+<!--        	document.querySelector('.popup').classList.remove('visible');-->
+<!--    	}-->
+<!--	</script>-->
+
+<script>
+    	let button = document.querySelector('.popup-button');
+
+
+    	button.addEventListener('click', showPopup);
+
+    	// button.addEventListener('mouseover', showPopup);
+
+    	function showPopup() {
+        	document.querySelector('.popup').classList.toggle('visible');
+        	console.log('showPopup работает');
+    	}
+	</script>
+
+
+</body>
+
+</html>
+
+<!--let loginButton;-->
+
+<!--let loginButton = document.querySelector('.login-button');-->
+
+<!--Задание 4.12.3-->
+<!-- button.addEventListener('click', showPopup);-->
+
+<!--Задание-->
+<!--8 points possible (graded)-->
+<!--addEventListener-->
+<!--mouseover или mouseenter-->
+<!--classList-->
+<!--add-->
+<!--addEventListener-->
+<!--mouseout-->
+<!--classList-->
+<!--remove-->
+
+
+
+
+
